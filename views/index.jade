@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  h3 Welcome to #{title} 
+  p #{description}. The test Shopify store can be accessed <a href="https://springback-store.myshopify.com/">here</a>. The demo API can read products and orders from our demo Shopify store. 
+  p The Go Shopify API demo and swagger documentation is deployed <a href="http://localhost:3001/api/docs/">here</a> 
+  p Download the source code from <a href="https://springback-store.myshopify.com/">Github</a>
+  h3 Tech Stack 
+  p <ul><li>NodeJS backend with Express</li><li>Hosted on Heroku</li></ul>  
+  h3 Primary Node Modules 
+  p <ul><li>express</li><li>cors</li><li>helmet</li><li>morgan</li><li>dotenv</li><li>swagger-jsdoc</li><li>swagger-ui-express</li></ul>
+  h3 Using the Source Code 
+  p After downloading the source code from Github, you will need to install the above modules. You will need the following prerequisites: <ul><li>Create a development Shopify store</li><li>Create a private Shopify App</li><li>Generate API credentials</li><li>Update the config.env files with the values from your Shopify store</li></ul>   
+  
