@@ -3,8 +3,8 @@
 Welcome to goShopify
 This REST API demonstrates integration with the Shopify admin API.  We have a demo Shopify store where we have added a couple of products and orders. The goShopify demo API can read products and orders from our  Shopify store.
 
-- You can access our demo store <a href="https://springback-store.myshopify.com/" target="_bank">here</a>
-- The Go Shopify API demo and Swagger documentation is deployed <a href="https://mysterious-ravine-35694.herokuapp.com/api/docs" target="_bank">here</a>
+- You can access our demo store <a href="https://springback-store.myshopify.com/" target="_blank">here</a>
+- The Go Shopify API demo and Swagger documentation is deployed <a href="https://mysterious-ravine-35694.herokuapp.com/api/docs" target="_blank">here</a>
 - Download the source code from Github
 
 ## API Endpoints
@@ -35,9 +35,9 @@ The API has the following endpoints:
 After downloading the source code from Github, you will need to install the above modules. You will need the following prerequisites:
 
 ### Prerequisites
-- Create a development Shopify store. More information <a href="https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores" target="_bank">here</a>
-- Create a private Shopify App. This is needed to access the Admin API using basic authentication and does not undergo the review process. The app will work only for your store. More information <a href="https://help.shopify.com/en/manual/apps/private-apps" target="_bank">here</a>
-- Generate API credentials. More information <a href="https://shopify.dev/apps/auth/basic-http#:~:text=Generate%20API%20credentials,-After%20the%20store&text=From%20your%20Shopify%20admin%2C%20go,and%20a%20contact%20email%20address." target="_bank">here</a>
+- Create a development Shopify store. More information <a href="https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores" target="_blank">here</a>
+- Create a private Shopify App. This is needed to access the Admin API using basic authentication and does not undergo the review process. The app will work only for your store. More information <a href="https://help.shopify.com/en/manual/apps/private-apps" target="_blank">here</a>
+- Generate API credentials. More information <a href="https://shopify.dev/apps/auth/basic-http#:~:text=Generate%20API%20credentials,-After%20the%20store&text=From%20your%20Shopify%20admin%2C%20go,and%20a%20contact%20email%20address." target="_blank">here</a>
 
 *Note:* The Shopify API URL os prefixed with @ followed by only the domain name without the WWW
 
