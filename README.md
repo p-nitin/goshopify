@@ -41,7 +41,7 @@ After downloading the source code from Github, you will need to install the abov
 
 *Note:* The Shopify API URL os prefixed with @ followed by only the domain name without the WWW
 
-### Installation
+### Local Installation
 - Clone the repository
 - Create a .env file named config.env at the root with the values from your Shopify store
   - SHOPIFY_API_KEY=YOUR_KEY
@@ -51,4 +51,4 @@ After downloading the source code from Github, you will need to install the abov
   - run `npm install` from the directory containing the package.json file
 - You can now run the server locally from the Node command prompt
   - `node app.js`
-
+- Open the swagger documentation from `http://localhost:3001/api/docs` to use the API
