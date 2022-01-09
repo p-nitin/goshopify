@@ -1,6 +1,6 @@
 # goShopify
 
-Welcome to GoShopify
+Welcome to goShopify
 This REST API demonstrates integration with the Shopify admin API.  We have a demo Shopify store where we have added a couple of products and orders. The goShopify demo API can read products and orders from our  Shopify store.
 
 - You can access our demo store <a href="https://springback-store.myshopify.com/" target="_bank">here</a>
@@ -9,7 +9,7 @@ This REST API demonstrates integration with the Shopify admin API.  We have a de
 
 ## API Endpoints
 The API has the following endpoints:
-| Command | Operation |  Description |
+| Operation | Endpoint |  Description |
 | --- | --- | --- |
 | GET | /orders | List of 50 latest orders from Shopify
 | GET | /products | List of 50 products from Shopify
