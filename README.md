@@ -1,10 +1,9 @@
 # goshopify
-This REST API demonstrates integration with Shopify admin API. 
 
 Welcome to GoShopify
-This API demonstrates the integration with Shopify Admin API. The test Shopify store can be accessed here. The demo API can read products and orders from our demo Shopify store.
+This REST API demonstrates integration with the Shopify admin API.  The test Shopify store can be accessed here. The demo API can read products and orders from our demo Shopify store.
 
-The Go Shopify API demo is deployed here
+The Go Shopify API demo is deployed <a href="#">here</a>
 
 Download the source code from Github
 
