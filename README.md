@@ -23,6 +23,7 @@ The API has the following endpoints:
   - helmet
   - morgan
   - dotenv
+  - got
   - swagger-jsdoc
   - swagger-ui-express
 
