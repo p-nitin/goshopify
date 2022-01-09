@@ -4,9 +4,16 @@ Welcome to GoShopify
 This REST API demonstrates integration with the Shopify admin API.  We have a demo Shopify store where we have added a couple of products and orders. The goShopify demo API can read products and orders from our  Shopify store.
 
 - You can access our demo store <a href="https://springback-store.myshopify.com/" target="_bank">here</a>
-- The Go Shopify API demo is deployed <a href="#" target="_bank">here</a>
+- The Go Shopify API demo and Swagger documentation is deployed <a href="#" target="_bank">here</a>
 - Download the source code from Github
 
+## API Endpoints
+The API has the following endpoints:
+| Command | Operation |  Description |
+| --- | --- | --- |
+| GET | /orders | List of 50 latest orders from Shopify
+| GET | /products | List of 50 products from Shopify
+ 
 ## Tech Stack
 - NodeJS backend with Express
 - Hosted on Heroku
