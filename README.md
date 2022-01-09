@@ -48,7 +48,7 @@ After downloading the source code from Github, you will need to install the abov
   - SHOPIFY_API_PWD=YOUR_shppa_PASSWORD
   - SHOPIFY_API_URL=@YOUR_SHOPIFY_URL/admin/api/2021-10
 - Install all dependnecies
-  - run npm install from the directory containing the package.json file
+  - run 'npm install' from the directory containing the package.json file
 - You can now run the server locally from the Node command prompt
-  - node app.js
+  - 'node app.js'
 
